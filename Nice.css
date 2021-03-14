@@ -1,0 +1,195 @@
+body{
+    background-color: #d8ebe4;
+    margin: 0;/*To get rid of default CSS*/
+    text-align: center;/*Does not work for elements which have width specified*/
+    color: #40514E;
+}
+h1{
+    margin-top: 0;
+    width: 30%;
+    margin: 0 auto 0 auto;/*top - right - bottom - left*//*Centre Allign*/
+    font-family: 'Redressed', cursive, sans-serif;/*1st -> 2nd  -> .....*/
+    color: #66BFBF;
+}
+hr{
+    border: dotted #f1e789 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 50px auto;
+}
+.End{
+    width: 40%;
+    margin: 10px auto 60px;
+}
+h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Serif is default*/
+    color: #66BFBF;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Serif is default*/
+    line-height: 2;
+}
+/*Try not to use float - clear=> anti - float*/
+.QP{
+    font-size: 5rem;/*wrt Body*//*16px = 1em = 100%*/
+    margin: 0 auto 0 auto;
+    color: #66BFBF;
+}
+.RF{
+    color: coral;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-weight: 800;
+}
+.Guitar{
+    margin-top: 30px;
+}
+.Code{
+    margin: 0;
+}
+.intro{
+    width: 60%;
+    margin: 25px auto 25px auto;
+}
+.RE{
+    font-size: 2rem;
+    color: coral;
+}
+.RR{
+padding-top: 100px;
+}
+.P{
+position: relative;
+left: 125px;
+bottom: 25px;
+}
+.Q{
+position: absolute;
+left: 475px;
+top: 250px;/*Distance from top margin*/
+}
+.Yeah{
+    background-color: #fbff0a;
+    padding: 20px;
+    border: solid;
+    border-width: 10px;
+    width: 200px;
+    height: 200px;
+}
+/*Content -> Padding -> Border -> Margin(Not part of the box)*/
+.NO{
+    background-color: rgb(221, 42, 57);
+    width: 200px;
+    height: 200px;
+    border-width: 20px;
+    border: solid;
+    margin-left: 260px;
+}
+.OP{
+    background-color: rgb(20, 231, 221);
+    width: 200px;
+    height: 200px;
+    border-width: 10px;
+    border: solid;
+    margin-left: 465px;
+}
+.Noice{
+    text-decoration: underline;
+    background-color: sandybrown;
+    width: 100px;
+    display: inline-block
+}
+.TT{
+    display: none;/*No Space*/
+}
+.PP{
+    visibility: hidden;/*Space remains*/
+}
+.AA{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
+.BB{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    display: inline-block;
+}/*HTML elements have static position by default*/
+/*top - left and other features => Does not affect the other elements*/
+/*Child - Parent => Nested*/
+/*Relative Position => Relative to HTML element - Absolute position => Relative to Page - Out of flow*/
+.CC{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    display: inline-block;
+    /*margin-left: 200px;*/
+}
+/*Inline => Cannot change width - Block => Can change width*/
+.YY{
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+a{
+    color: #11868a;
+    margin: 10px 10px;
+    text-decoration: none;/*Underline by default for anchor tags*/
+
+}
+a:hover{
+    color: #EAF6F6;
+}
+.footer{
+    background-color: #66BFBF;
+    padding: 10px 0 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Serif is default*/
+    margin-top: 20px;
+}
+.Copy{
+    font-size: 0.75em;
+    color: #EAF6F6;
+}
+.btn {
+    background: #3DDAF6;
+    background-image: -webkit-linear-gradient(top, #3DDAF6, #891ED0);
+    background-image: -moz-linear-gradient(top, #3DDAF6, #891ED0);
+    background-image: -ms-linear-gradient(top, #3DDAF6, #891ED0);
+    background-image: -o-linear-gradient(top, #3DDAF6, #891ED0);
+    background-image: -webkit-gradient(to bottom, #3DDAF6, #891ED0);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    height: 27px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #6633ED 1px;
+    background: #3DF643;
+    background-image: -webkit-linear-gradient(top, #3DF643, #3DA8F6);
+    background-image: -moz-linear-gradient(top, #3DF643, #3DA8F6);
+    background-image: -ms-linear-gradient(top, #3DF643, #3DA8F6);
+    background-image: -o-linear-gradient(top, #3DF643, #3DA8F6);
+    background-image: -webkit-gradient(to bottom, #3DF643, #3DA8F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
